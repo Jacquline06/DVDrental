@@ -1,0 +1,23 @@
+-- execute in ascending order. please check for your aws codes
+
+ls
+sudo apt-get install update
+sudo apt-get install pip
+sudo apt-get install git
+ls
+cd DVDrental/
+ls
+sudo apt install python3-venv #if error comes then execute the following
+sudo apt update
+apt-cache search python3-venv # it should return creator
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install python3-venv
+python3 -m venv jacquline
+source jacquline/bin/activate
+ls
+cat requirments.txt
+pip install -r requirments.txt 
+nohup python3 -m streamlit run app.py
+ps -ef
+kill {no}
